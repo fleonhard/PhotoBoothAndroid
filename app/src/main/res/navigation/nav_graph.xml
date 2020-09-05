@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.herbornsoftware.photobooth.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_boothFragment"
+            app:destination="@id/boothFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boothFragment"
+        android:name="com.herbornsoftware.photobooth.BoothFragment"
+        android:label="booth_fragment"
+        tools:layout="@layout/booth_fragment" >
+        <action
+            android:id="@+id/action_boothFragment_to_previewFragment"
+            app:destination="@id/previewFragment" />
+        <action
+            android:id="@+id/action_boothFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/previewFragment"
+        android:name="com.herbornsoftware.photobooth.PreviewFragment"
+        android:label="preview_fragment"
+        tools:layout="@layout/preview_fragment" >
+        <action
+            android:id="@+id/action_previewFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.herbornsoftware.photobooth.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

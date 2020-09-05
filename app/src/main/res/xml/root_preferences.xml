@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/gopro">
+        <EditTextPreference
+            app:key="GOPRO_SSID"
+            app:title="@string/gopro_ssid"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="GOPRO_PASSWORD"
+            app:title="@string/gopro_password"
+            android:inputType="textPassword"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/wifi">
+        <EditTextPreference
+            app:key="WLAN_SSID"
+            app:title="@string/wlan_ssid"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="WLAN_PASSWORD"
+            app:title="@string/wlan_password"
+            android:inputType="textPassword"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/photos">
+        <EditTextPreference
+            app:key="PHOTO_COUNTDOWN"
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            app:title="@string/photo_countdown"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="PHOTO_ITERATIONS"
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            app:title="@string/photo_iterations"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

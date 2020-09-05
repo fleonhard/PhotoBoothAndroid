@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PhotoBooth</string>
+    <!-- Preference Titles -->
+    <string name="gopro">GoPro</string>
+    <!-- Messages Preferences -->
+    <string name="gopro_ssid">SSID</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="gopro_password">Password</string>
+    <string name="photos">Photos</string>
+    <string name="photo_countdown">Countdown</string>
+    <string name="photo_iterations">Iterations</string>
+    <string name="take_picture_failed">Photografieren fehlgeschlagen</string>
+    <string name="go">Go!</string>
+    <string name="wifi">WLAN</string>
+    <string name="wlan_ssid">SSID</string>
+    <string name="wlan_password">Password</string>
+    <string name="send_to">Senden</string>
+    <string name="close">Schließen</string>
+    <string name="info">Info</string>
+    <string name="confirm">Okay</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="finish_info">Deine Session wird jetzt beendet.</string>
+    <string name="delete_info">Willst du dieses Bild wirklich löschen? Nach dem löschen musst du ein neues Bild schießen um die Bearbeitung zu beenden.</string>
+    <string name="finish_title">Fertigstellen</string>
+    <string name="remove_title">Bild löschen</string>
+    <string name="main_title">Anleitung</string>
+    <string name="main_info">
+        Sobald du den Photo-Knopf drückst, macht die Box %1$d mal ein Foto von dir. Damit du Zeit hast, dich vor den Fotos vorzubereiten, zählt jeweils ein Countdown runter.
+        Unterhalb des Photo-Knopfs hast du die Möglichkeit die Länge des Countdowns zu verändern. Wenn du denkst es ist zu Dunkel, mache einfach die Lampe an der Box, durch Brührung des Knopfs an der Lampe, an.
+
+        Wenn du fertig bist, werden die Fotos in die Cloud geladen, sodass du zuhause darauf zugreifen kannst.
+    </string>
+</resources>
